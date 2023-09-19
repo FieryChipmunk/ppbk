@@ -8,6 +8,9 @@ from font_helper import Font_Helper
 from camera import Camera
 from pickup import Pickup
 import random
+import os
+
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 pygame.init()
 
